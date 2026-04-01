@@ -29,7 +29,7 @@ variable "public_key" {
 
 variable "instance_type" {
   type    = string
-  default = "t3.micro"
+  default = "t3.nano"
 }
 
 data "aws_vpc" "default" {
